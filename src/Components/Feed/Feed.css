@@ -1,0 +1,7 @@
+.feed {
+  border: 1px solid green;
+  position: relative;
+  padding-top: var(--header-height);
+  padding-bottom: 45px;
+  color: red;
+}

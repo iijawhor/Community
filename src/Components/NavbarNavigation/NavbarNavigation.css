@@ -1,0 +1,26 @@
+.navbarNavigation {
+  color: aqua;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.navbarNavigationItem {
+  text-align: center;
+  width: 50%;
+  padding-bottom: 1px;
+  font-size: 2vh;
+  letter-spacing: 0.5px;
+}
+.navbarNavigationItem > h3 {
+  font-weight: 400;
+}
+.active {
+  border-bottom: 2px solid white;
+}
+@media screen and (min-width: 768px) {
+  .navbarNavigation {
+    display: none;
+  }
+}
