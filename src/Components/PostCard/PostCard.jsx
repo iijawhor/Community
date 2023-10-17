@@ -18,20 +18,24 @@ const PostCard = ({ name, bio, postClub, postTitle, postText, postImage }) => {
     <section className="postCard">
       <div className="postCardUser">
         <div className="postCardUserDetails">
-          <img src={postImage} alt="img" className="postUserImage" />
+          <img
+            src={postImage ? postImage : null}
+            alt="img"
+            className="postUserImage"
+          />
           <div className="postCardUserName">
             <h1 className="postUserName">{name}</h1>
-            <p className="postUserBio">{bio}</p>
+            <p className="postUserBio">{bio ? bio : ""}</p>
           </div>
         </div>
         <div className="postCardUserClub">
-          <p className="postUserClubName">{postClub}</p>
+          <p className="postUserClubName">{postClub ? postClub : null}</p>
         </div>
       </div>
       {/* <div className="postCardUser"> */}
       <div className="postDetails">
         <div className="postDetailsHead">
-          <h5 className="postTextTitle">{postTitle}</h5>
+          <h5 className="postTextTitle">{postTitle ? postTitle : null}</h5>
           <p className="postText">
             {displayPostText ? postTexts : trunacatePostText}
             {postTexts.length > maxLength && (
