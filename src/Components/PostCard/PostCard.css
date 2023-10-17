@@ -1,0 +1,116 @@
+.postCard {
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  padding: 3px 0;
+  margin: 3px 0;
+  color: black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  margin-bottom: 10px;
+}
+.postCardUser {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.postUserImage {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.postUserName {
+  font-size: 2vh;
+  font-family: sans-serif;
+  letter-spacing: 0.2px;
+  font-weight: 550;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+.postUserBio {
+  font-size: 1.8vh;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+.postUserClubName {
+  background-color: blue;
+  padding: 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 600;
+  font-family: sans-serif;
+  font-size: 2vh;
+}
+.postCardUserDetails {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 5px;
+}
+.postCardUserDetails > img {
+  padding: 5px;
+  border-radius: 50%;
+}
+.postDetails {
+  position: relative;
+  margin-bottom: 5px;
+  padding: 0 5px;
+}
+.postDetailsHead {
+  position: relative;
+}
+.postTextTitle,
+.postText {
+  font-size: 2vh;
+  font-weight: 600;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+.postText {
+  font-size: 2vh;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 2.2vh;
+}
+.postImage {
+  width: 100%;
+  min-height: 220px;
+  max-height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.postActivities {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  color: blue;
+}
+.displayPostTextButton {
+  color: blue;
+  font-size: 2vh;
+  cursor: pointer;
+}
+.postActivityIcon {
+  font-size: 3vh !important;
+}
+.likesCount {
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  font-family: "Times New Roman", Times, serif;
+}
+.likes {
+  color: black;
+  font-size: 2vh;
+}
