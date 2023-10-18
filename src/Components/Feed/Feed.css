@@ -3,6 +3,7 @@
   padding-top: var(--header-height);
   padding-bottom: 45px;
   display: flex;
+  gap: 50px;
 }
 @media screen and (min-width: 768px) and (max-width: 912px) {
   .feed {

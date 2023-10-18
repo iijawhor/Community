@@ -3,7 +3,7 @@
   padding: 0;
 }
 :root {
-  --header-height: 0; /* Set a default value */
+  --header-height: 0;
 }
 h1,
 h2,

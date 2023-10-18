@@ -1,7 +1,6 @@
 .posts {
   position: relative;
   height: 100vh;
-
   width: 100%;
   overflow: auto;
   margin: auto;
@@ -9,6 +8,7 @@
   margin-top: 5px;
   scroll-behavior: smooth;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }

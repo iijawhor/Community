@@ -62,3 +62,69 @@ export const userPosts = [
     id: 6
   }
 ];
+// Clubs----------------
+export const clubsList = [
+  {
+    clubsName: "Tech Club",
+    members: 4099,
+    clubsDescription:
+      "Searching for your tech tribe from Github to GUIs, this club is where it all happens",
+    id: 1
+  },
+  {
+    clubsName: "AI Club",
+    members: 2323,
+    clubsDescription:
+      "In the AI Playground, we talk about AI tools, algorithms, data,and the exciting future of artificial intelligence.",
+    id: 2
+  },
+  {
+    clubsName: "MBA Club",
+    members: 3123,
+    clubsDescription:
+      "Discuss CAT prep ,interview startegies.college comparisons, and more...",
+    id: 3
+  },
+  {
+    clubsName: "Design Club",
+    members: 4244,
+    clubsDescription:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cupiditate?",
+    id: 4
+  },
+  {
+    clubsName: "Startup Club",
+    members: 5599,
+    clubsDescription:
+      "Discuss cool ideas and build cooler stuff.This is your place to network and grow with fellow hustlers.",
+    id: 5
+  },
+  {
+    clubsName: "Product Club",
+    members: 2299,
+    clubsDescription:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cupiditate?",
+    id: 6
+  },
+  {
+    clubsName: "Product Club",
+    members: 2299,
+    clubsDescription:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cupiditate?",
+    id: 7
+  },
+  {
+    clubsName: "Product Club",
+    members: 2299,
+    clubsDescription:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cupiditate?",
+    id: 8
+  },
+  {
+    clubsName: "Product Club",
+    members: 2299,
+    clubsDescription:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, cupiditate?",
+    id: 9
+  }
+];
