@@ -1,0 +1,67 @@
+.myClubCard {
+  position: relative;
+  padding: 20px;
+  margin: 5px 5px 10px 5px;
+  background-color: #fefcff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.clubDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.clubDetail {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+}
+.clubIcon {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 50%;
+}
+.clubName {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4vh;
+  letter-spacing: 0.5px;
+}
+.clubName > h2 {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.clubName > p {
+  font-weight: 400;
+  color: rgb(111, 111, 111);
+}
+.clubJoinButton {
+  font-size: 1.5vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.clubDescription {
+  margin-left: 10px;
+  font-size: 1.6vh;
+  font-family: sans-serif;
+  line-height: 2.5vh;
+  letter-spacing: 0.5px;
+  font-weight: lighter;
+}
+@media screen and (min-width: 1024px) {
+  .clubCard {
+    padding: 5px;
+  }
+  .clubDetails {
+    margin-bottom: 5px;
+  }
+}
