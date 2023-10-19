@@ -5,7 +5,7 @@ const ClubCard = ({ clubsName, clubsDescription, members }) => {
     <section className="clubCard">
       <div className="clubDetails">
         <div className="clubDetail">
-          <img src="./assets/post.jpg" alt="imh" className="clubIcon" />
+          <img src="./assets/post.jpg" alt="" className="clubIcon" />
           <div className="clubName">
             <h2>{clubsName}</h2>
             <p>{members} members</p>

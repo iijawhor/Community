@@ -1,4 +1,4 @@
-.clubs {
+.club {
   position: relative;
   width: 100%;
   display: block;
@@ -11,13 +11,13 @@
   margin-top: 5px;
 }
 @media screen and (min-width: 1024px) {
-  .clubs {
+  .club {
     width: 25%;
     margin-left: 20px;
   }
 }
 @media screen and (max-width: 912px) {
-  .clubs {
+  .club {
     display: none;
   }
 }
