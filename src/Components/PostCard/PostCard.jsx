@@ -24,7 +24,7 @@ const PostCard = ({ name, bio, postClub, postTitle, postText, postImage }) => {
             className="postUserImage"
           />
           <div className="postCardUserName">
-            <h1 className="postUserName">{name}</h1>
+            <h5 className="postUserName">{name}</h5>
             <p className="postUserBio">{bio ? bio : ""}</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const PostCard = ({ name, bio, postClub, postTitle, postText, postImage }) => {
       {/* <div className="postCardUser"> */}
       <div className="postDetails">
         <div className="postDetailsHead">
-          <h5 className="postTextTitle">{postTitle ? postTitle : null}</h5>
+          <p className="postTextTitle">{postTitle ? postTitle : null}</p>
           <p className="postText">
             {displayPostText ? postTexts : trunacatePostText}
             {postTexts.length > maxLength && (

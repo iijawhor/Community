@@ -16,22 +16,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: -2px;
 }
 .postUserImage {
-  height: 40px;
-  width: 40px;
+  height: 7vh;
+  width: 7vh;
   padding: 0;
   margin: 0;
   cursor: pointer;
 }
 .postUserName {
-  font-size: 2vh;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.2vh;
+  font-family: sans-serif;
   letter-spacing: 0.2px;
-  font-weight: 550;
   margin-bottom: -4px;
   cursor: pointer;
+  color: rgba(12, 12, 12, 0.808);
 }
 .postUserBio {
   font-size: 2vh;
@@ -41,8 +40,8 @@
 }
 .postUserClubName {
   background-color: blue;
-  padding: 2px 5px;
-  border-radius: 5px;
+  padding: 4px 8px 5px 8px;
+  border-radius: 50px;
   cursor: pointer;
   color: white;
   font-size: 400;
@@ -69,14 +68,16 @@
 }
 .postTextTitle,
 .postText {
-  font-size: 2vh;
-  font-weight: 600;
+  font-size: 1.8vh;
   font-family: sans-serif;
   letter-spacing: 0.5px;
 }
+.postTextTitle {
+  color: rgb(46, 46, 46);
+  font-weight: 550;
+}
 .postText {
-  margin-top: 5px;
-  font-size: 1.8vh;
+  margin-top: 2px;
   font-family: sans-serif;
   line-height: 2.5vh;
   letter-spacing: 0.5px;
@@ -87,7 +88,7 @@
   min-height: 220px;
   max-height: 350px;
   background-position: center;
-  background-size: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
 }
 .postActivities {

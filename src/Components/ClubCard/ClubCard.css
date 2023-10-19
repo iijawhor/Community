@@ -23,11 +23,13 @@
   height: 6vh;
   width: 6vh;
   border-radius: 50%;
+  cursor: pointer;
 }
 .clubName {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4vh;
   letter-spacing: 0.5px;
+  cursor: pointer;
 }
 .clubName > h2 {
   font-weight: 500;
@@ -44,7 +46,7 @@
   letter-spacing: 1px;
   cursor: pointer;
   font-weight: 600;
-  background-color: black;
+  background-color: blue !important;
   color: white;
   padding: 5px 10px;
   border-radius: 50px;
